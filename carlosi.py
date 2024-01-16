@@ -12,11 +12,11 @@ st.set_page_config(page_title="Global Treasury",
                    layout="wide"
 )
 #image logo load
-st.image('/Users/carlositurralde/Downloads/Dashboard/Colgate.png')
+st.image('Colgate.png')
 
 #display first table
 s1= pd.read_excel(
-    io="/Users/carlositurralde/Downloads/Dashboard/ai.xlsx",
+    io="ai.xlsx",
     engine='openpyxl')
 
 st.dataframe(s1)
